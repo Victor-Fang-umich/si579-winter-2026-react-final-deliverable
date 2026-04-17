@@ -20,6 +20,8 @@ function App() {
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
+          <p>Student Name: Victor Fang</p>
+          <p>Unique Name: vfang</p>
         </div>
         <button
           className="counter"
@@ -27,6 +29,7 @@ function App() {
         >
           Count is {count}
         </button>
+          <p>Count 3 times: {count*3}</p>
       </section>
 
       <div className="ticks"></div>
